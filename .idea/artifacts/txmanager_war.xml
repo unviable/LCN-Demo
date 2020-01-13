@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="txmanager:war">
+    <output-path>$PROJECT_DIR$/txmanager/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>txmanager</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="txmanager-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="txmanager:war exploded" />
+    </root>
+  </artifact>
+</component>

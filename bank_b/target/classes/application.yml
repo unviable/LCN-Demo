@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: bank-b
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank_b?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password:
+server:
+  port: 7072
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaserver9001.com:9001/eureka/
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

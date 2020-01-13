@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LCN-Master.iml" filepath="$PROJECT_DIR$/LCN-Master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank_a/bank_a.iml" filepath="$PROJECT_DIR$/bank_a/bank_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank_b/bank_b.iml" filepath="$PROJECT_DIR$/bank_b/bank_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txmanager/txmanager.iml" filepath="$PROJECT_DIR$/txmanager/txmanager.iml" />
+    </modules>
+  </component>
+</project>
